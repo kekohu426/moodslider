@@ -1,0 +1,7 @@
+{
+  "name": "Super Fruit Slicer",
+  "description": "A motion-controlled fruit slicing game for kids using the camera.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
