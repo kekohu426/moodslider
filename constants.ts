@@ -51,7 +51,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
                 <p>在现代高压环境下，无论是面对<strong>毕业论文 (Thesis)</strong> 还是 <strong>季度KPI</strong>，皮质醇（Cortisol）水平的长期升高是导致倦怠（Burnout）的主要原因。</p>
                 <br/>
                 <h3>具象化发泄的科学原理</h3>
-                <p>心理学上的<strong>"替代性攻击"（Displacement Aggression）</strong>理论指出，将攻击冲动转移到非生命体对象上，可以有效释放积压的负面能量。Mood Slicer 利用这一原理，通过视觉反馈（破碎效果）和听觉反馈（爆炸音效），为用户提供即时的心理补偿。</p>
+                <p>心理学上的<strong>"替代性攻击"（Displacement Aggression）</strong>理论指出，将攻击冲动转移到非生命体对象上，可以有效释放积压的负面能量。MoodSlider 利用这一原理，通过视觉反馈（破碎效果）和听觉反馈（爆炸音效），为用户提供即时的心理补偿。</p>
                 <br/>
                 <h3>体感交互的优势</h3>
                 <p>久坐是学生和白领的通病。<strong>大幅度的肢体运动</strong>能促进内啡肽（Endorphins）的分泌。挥动手臂不仅是游戏操作，更是一次微型的有氧运动，帮助身体从"僵直"状态恢复活力。</p>
@@ -69,7 +69,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             title: '2025年"发疯"新趋势：用AI对抗精神内耗',
             excerpt: '从图书馆到格子间，年轻人的解压方式正在经历一场数字化革命。无需下载、即开即玩成为主流。',
             content: `
-                <p>随着WebGPU和Edge AI技术的发展，浏览器端的体验已不再局限于简单的网页浏览。<strong>Mood Slicer</strong> 代表了新一代的"微型解压应用"：</p>
+                <p>随着WebGPU和Edge AI技术的发展，浏览器端的体验已不再局限于简单的网页浏览。<strong>MoodSlider</strong> 代表了新一代的"微型解压应用"：</p>
                 <ul>
                     <li>🔒 <strong>隐私优先</strong>：本地AI处理，在宿舍或办公室玩也不用担心泄露隐私。</li>
                     <li>⚡ <strong>即开即用</strong>：没有繁琐的注册登录流程，打开就能发泄。</li>
@@ -92,7 +92,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             content: `
                 <p>愤怒是一种高能量情绪，如果被压抑（Suppression），会对心血管系统造成负担。但在公共环境中，我们往往不得不保持"体面"。</p>
                 <br/>
-                <p>Mood Slicer 的<strong>"老板键"（Stealth Mode）</strong>和<strong>"静音模式"</strong>专为这种场景设计。你可以在复习间隙或会议空档的5分钟里，通过鼠标或触控板，在屏幕上疯狂切碎那些让你抓狂的关键词。</p>
+                <p>MoodSlider 的<strong>"老板键"（Stealth Mode）</strong>和<strong>"静音模式"</strong>专为这种场景设计。你可以在复习间隙或会议空档的5分钟里，通过鼠标或触控板，在屏幕上疯狂切碎那些让你抓狂的关键词。</p>
                 <p>这不仅是游戏，更是一种<strong>情绪的快速重启（Emotional Reboot）</strong>。</p>
             `,
             date: '2025-03-05',
@@ -107,7 +107,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             slug: 'remote-work-loneliness',
             title: '孤独的奋斗者：如何建立数字化连接',
             excerpt: '独自在异乡求学或工作，孤独感如影随形。如何通过简单的互动游戏找回归属感？',
-            content: `<p>物理距离让心理隔阂加深。我们失去了茶水间的闲聊，失去了寝室夜聊的机会。</p><p>Mood Slicer 提供的实时解压榜单，让你看到此时此刻，北京的产品经理和伦敦的留学生都在为了同一个目标（解压）而挥舞手臂。这种"天涯共此时"的微妙连接，是缓解数字孤独的良药。</p>`,
+            content: `<p>物理距离让心理隔阂加深。我们失去了茶水间的闲聊，失去了寝室夜聊的机会。</p><p>MoodSlider 提供的实时解压榜单，让你看到此时此刻，北京的产品经理和伦敦的留学生都在为了同一个目标（解压）而挥舞手臂。这种"天涯共此时"的微妙连接，是缓解数字孤独的良药。</p>`,
             date: '2025-03-01',
             author: 'Remote Life',
             readTime: '5 min',
@@ -120,7 +120,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             slug: 'sleep-and-stress',
             title: '睡前切一切：运动助眠的科学',
             excerpt: '考前失眠？项目上线前睡不着？通过体感运动消耗多余的精力，是助眠的最佳方式。',
-            content: `<p>很多时候我们"累"，是"心累"而不是"身累"。这种状态下，大脑极度活跃，身体却处于静止，导致入睡困难。</p><p>睡前进行10分钟的轻度体感游戏（如 Mood Slicer 的快乐模式），可以：1. 消耗未完全释放的血糖；2. 转移大脑的焦虑焦点；3. 产生适量的内啡肽，带来平静感。</p>`,
+            content: `<p>很多时候我们"累"，是"心累"而不是"身累"。这种状态下，大脑极度活跃，身体却处于静止，导致入睡困难。</p><p>睡前进行10分钟的轻度体感游戏（如 MoodSlider 的快乐模式），可以：1. 消耗未完全释放的血糖；2. 转移大脑的焦虑焦点；3. 产生适量的内啡肽，带来平静感。</p>`,
             date: '2025-02-28',
             author: 'Sleep Well',
             readTime: '3 min',
@@ -133,7 +133,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             slug: 'color-psychology',
             title: '颜色的力量：为什么我们的敌人是红色的？',
             excerpt: '游戏色彩设计背后的心理学原理。红色激发斗志，蓝色带来冷静，绿色象征治愈。',
-            content: `<p>在 Mood Slicer 中，愤怒模式的主色调是深红与橙色。这并非巧合。色彩心理学研究表明，长波长的颜色（红、橙）能唤起人的警觉和行动欲。</p><p>相反，当你进入"摸鱼模式"（快乐模式），满屏的青色和蓝色（Under water）能迅速降低心率，起到镇静作用。每一次视觉主题的切换，都是一次心理状态的引导。</p>`,
+            content: `<p>在 MoodSlider 中，愤怒模式的主色调是深红与橙色。这并非巧合。色彩心理学研究表明，长波长的颜色（红、橙）能唤起人的警觉和行动欲。</p><p>相反，当你进入"摸鱼模式"（快乐模式），满屏的青色和蓝色（Under water）能迅速降低心率，起到镇静作用。每一次视觉主题的切换，都是一次心理状态的引导。</p>`,
             date: '2025-02-25',
             author: 'Design Lab',
             readTime: '4 min',
@@ -177,7 +177,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
                 <p>In high-pressure environments, whether it's <strong>Finals Week</strong> or <strong>Quarterly Reviews</strong>, chronic elevation of cortisol leads to burnout.</p>
                 <br/>
                 <h3>The Science of Displacement</h3>
-                <p><strong>Displacement Aggression</strong> allows us to redirect negative energy towards safe, inanimate objects. Mood Slicer leverages this by providing instant visual and auditory feedback—shattering your problems virtually so you don't have to physically.</p>
+                <p><strong>Displacement Aggression</strong> allows us to redirect negative energy towards safe, inanimate objects. MoodSlider leverages this by providing instant visual and auditory feedback—shattering your problems virtually so you don't have to physically.</p>
                 <br/>
                 <h3>Motion Matters</h3>
                 <p>Sedentary lifestyles are common for students and pros. <strong>Gross motor movements</strong> (like waving arms) stimulate endorphin production. It's a micro-workout that breaks your body out of its stress-induced rigidity.</p>
@@ -196,7 +196,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             excerpt: 'You don\'t need a vacation to reset. How 60 seconds of intense virtual activity can reboot your focus.',
             content: `
                 <p>The Pomodoro technique is famous for a reason. But what do you do in that 5-minute break? Doomscrolling often increases anxiety.</p>
-                <p><strong>Active Recovery</strong> is the key. Mood Slicer provides a burst of high-intensity interaction that:</p>
+                <p><strong>Active Recovery</strong> is the key. MoodSlider provides a burst of high-intensity interaction that:</p>
                 <ul>
                     <li>🚀 <strong>Resets Attention</strong>: Shifts focus completely away from books and spreadsheets.</li>
                     <li>🩸 <strong>Increases Blood Flow</strong>: Gets you moving in your chair.</li>
@@ -216,7 +216,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             title: 'Browser Gaming in 2025: AI & Motion Control',
             excerpt: 'No downloads, no consoles. How WebGL and Edge AI are turning your laptop webcam into a next-gen controller.',
             content: `
-                <p>The barrier between player and game is dissolving. With <strong>TensorFlow.js</strong>, Mood Slicer performs complex computer vision tasks directly in your Chrome tab.</p>
+                <p>The barrier between player and game is dissolving. With <strong>TensorFlow.js</strong>, MoodSlider performs complex computer vision tasks directly in your Chrome tab.</p>
                 <br/>
                 <p>This means:</p>
                 <p>1. <strong>Zero Latency</strong>: No server roundtrips for movement data.</p>
@@ -235,7 +235,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             slug: 'remote-work-isolation',
             title: 'Combating Isolation: From Dorms to Home Offices',
             excerpt: 'Working or studying alone is freeing but lonely. How digital connections can bridge the gap.',
-            content: `<p>Remote work and solitary studying turn physical distance into emotional barriers. We lose the watercooler chats and the face-to-face smiles.</p><p>Studies find that <strong>shared gaming experiences</strong> can rapidly bridge psychological distance. Mood Slicer's live leaderboard lets you see that right now, a Student in Boston and a Trader in NYC are both waving their arms for the same goal: stress relief.</p>`,
+            content: `<p>Remote work and solitary studying turn physical distance into emotional barriers. We lose the watercooler chats and the face-to-face smiles.</p><p>Studies find that <strong>shared gaming experiences</strong> can rapidly bridge psychological distance. MoodSlider's live leaderboard lets you see that right now, a Student in Boston and a Trader in NYC are both waving their arms for the same goal: stress relief.</p>`,
             date: 'March 1, 2025',
             author: 'Remote Life',
             readTime: '5 min',
@@ -248,7 +248,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             slug: 'sleep-hygiene',
             title: 'Slice Before Sleep: Motion for Rest',
             excerpt: 'Insomnia often comes from a racing mind. Burning off excess energy is the best sleep aid.',
-            content: `<p>Often we are "mentally tired" but "physically awake". In this state, the brain races while the body is stagnant.</p><p>10 minutes of light motion gaming (like Mood Slicer's Chill Mode) before bed can: 1. Burn off unreleased glucose; 2. Shift focus away from anxiety; 3. Release calming endorphins.</p>`,
+            content: `<p>Often we are "mentally tired" but "physically awake". In this state, the brain races while the body is stagnant.</p><p>10 minutes of light motion gaming (like MoodSlider's Chill Mode) before bed can: 1. Burn off unreleased glucose; 2. Shift focus away from anxiety; 3. Release calming endorphins.</p>`,
             date: 'Feb 28, 2025',
             author: 'Sleep Well',
             readTime: '3 min',
@@ -261,7 +261,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             slug: 'color-therapy',
             title: 'The Power of Color: Why Are Enemies Red?',
             excerpt: 'The psychology behind game color design. Red triggers action, Blue brings calm.',
-            content: `<p>In Mood Slicer, Rage Mode is dominated by deep reds and oranges. This isn't random. Color psychology shows long-wavelength colors (Red) trigger alertness and action.</p><p>Conversely, "Chill Mode" uses cyans and blues to lower heart rate. Every visual theme switch is a guided shift in your psychological state.</p>`,
+            content: `<p>In MoodSlider, Rage Mode is dominated by deep reds and oranges. This isn't random. Color psychology shows long-wavelength colors (Red) trigger alertness and action.</p><p>Conversely, "Chill Mode" uses cyans and blues to lower heart rate. Every visual theme switch is a guided shift in your psychological state.</p>`,
             date: 'Feb 25, 2025',
             author: 'Design Lab',
             readTime: '4 min',
@@ -514,7 +514,7 @@ export const TRANSLATIONS = {
              faqTitle: "常见问题 (FAQ)",
              subtitle_faq: "支持中心",
              faq: [
-                 { q: "这个游戏收费吗？", a: "完全免费！Mood Slicer 是一款旨在帮助大家缓解压力的公益性质网页游戏。" },
+                 { q: "这个游戏收费吗？", a: "完全免费！MoodSlider 是一款旨在帮助大家缓解压力的公益性质网页游戏。" },
                  { q: "我的摄像头画面会被录制吗？", a: "绝对不会。我们使用 TensorFlow.js 在您的设备本地进行动作捕捉，画面数据不会离开您的电脑。" },
                  { q: "手机上可以玩吗？", a: "可以！游戏适配移动端浏览器，但在电脑大屏幕上体验更佳。" }
              ]
@@ -522,7 +522,7 @@ export const TRANSLATIONS = {
         workplace: {
             title: "学业与职场的情绪急救包",
             subtitle: "拒绝精神内耗，把压力切成碎片",
-            intro: "在**GPA**、**论文**、**996**和**KPI**的多重重压下，我们往往无处宣泄。Mood Slicer 的设计初衷，就是为你提供一个安全、私密且即时的发泄空间，让你在'切碎'烦恼的过程中重获掌控感。",
+            intro: "在**GPA**、**论文**、**996**和**KPI**的多重重压下，我们往往无处宣泄。MoodSlider 的设计初衷，就是为你提供一个安全、私密且即时的发泄空间，让你在'切碎'烦恼的过程中重获掌控感。",
             designPhilosophy: "设计哲学",
             startVenting: "开始宣泄",
             painPointsTitle: "你是否也经历过这些？",
@@ -533,7 +533,7 @@ export const TRANSLATIONS = {
                 { icon: "🌚", text: "周日/考前的焦虑" }
             ],
             philosophyTitle: "游戏设计理念：具象化宣泄",
-            philosophy: "心理学研究表明，将抽象的压力源（Stressors）转化为具象的物体并进行物理上的击破，能有效降低皮质醇水平。在 Mood Slicer 中，我们将“Deadline”、“Bug”、“考试”设计为可被切碎的视觉元素，配合爽快的音效反馈，实现心理学上的“替代性攻击”疗法。",
+            philosophy: "心理学研究表明，将抽象的压力源（Stressors）转化为具象的物体并进行物理上的击破，能有效降低皮质醇水平。在 MoodSlider 中，我们将“Deadline”、“Bug”、“考试”设计为可被切碎的视觉元素，配合爽快的音效反馈，实现心理学上的“替代性攻击”疗法。",
             wellnessTitle: "高效解压小贴士",
             wellnessTips: [
                 { title: "4-7-8 呼吸法", desc: "吸气4秒，憋气7秒，呼气8秒，快速平复心率。" },
@@ -769,7 +769,7 @@ export const TRANSLATIONS = {
              seoSubtitle: "Free AI Mood Slider Game 2025 — slide & slice stress instantly.",
              seoContent: "MoodSlider is a free, AI-powered **mood slider game**. Step 1: Slide the mood slider to rate how you feel. Step 2: Slice away the AI-generated bad-mood fruits—30-second dopamine reset, no download, privacy-safe. Works with **webcam motion** or **silent mouse mode**, perfect for quick breaks at work or school.\n\n• No signup needed\n• 100% free forever\n• Works on phone & desktop",
              keywords: ["AI stress relief game", "mood slider", "free browser game", "motion control", "cut anxiety fast", "mood slicer", "anger management", "work burnout relief", "mental health", "webcam game"],
-             featuresTitle: "Why Play Mood Slicer?",
+             featuresTitle: "Why Play MoodSlider?",
              subtitle_features: "Core Capabilities",
              features: [
                  { title: "Smart Semantic Gen", desc: "Built-in local NLP dictionary matches your specific annoyances (e.g., 'Taxes', 'Thesis', 'Ex') to targets instantly. Private & Offline-ready." },
@@ -783,7 +783,7 @@ export const TRANSLATIONS = {
              faqTitle: "Frequently Asked Questions",
              subtitle_faq: "Support",
              faq: [
-                 { q: "Is Mood Slicer free?", a: "Yes, it is 100% free to play online directly in your browser." },
+                 { q: "Is MoodSlider free?", a: "Yes, it is 100% free to play online directly in your browser." },
                  { q: "Is it safe to use my camera?", a: "Absolutely. We use local processing (TensorFlow.js). Your video feed never leaves your computer." },
                  { q: "Can I play on mobile?", a: "Yes, but for the best motion control experience, a laptop or desktop with a webcam is recommended." }
              ]
@@ -791,7 +791,7 @@ export const TRANSLATIONS = {
         workplace: {
             title: "Mental First-Aid for School & Work",
             subtitle: "Stop Burnout. Start Slicing.",
-            intro: "Under the crushing weight of **Exams**, **Grades**, **Deadlines**, and **KPIs**, we often have no outlet. Mood Slicer is designed to provide a safe, private, and instant space to vent, giving you back control by physically 'slicing' away your worries.",
+            intro: "Under the crushing weight of **Exams**, **Grades**, **Deadlines**, and **KPIs**, we often have no outlet. MoodSlider is designed to provide a safe, private, and instant space to vent, giving you back control by physically 'slicing' away your worries.",
             designPhilosophy: "Design Philosophy",
             startVenting: "Start Venting",
             painPointsTitle: "Sound Familiar?",
@@ -802,7 +802,7 @@ export const TRANSLATIONS = {
                 { icon: "🌚", text: "Sunday/Pre-Exam Anxiety" }
             ],
             philosophyTitle: "Design Philosophy: Tangible Venting",
-            philosophy: "Psychological studies show that visualizing abstract stressors as concrete objects and physically destroying them helps lower cortisol levels. In Mood Slicer, we turn 'Bugs', 'Exams', and 'Bad Bosses' into destructible targets. Combined with satisfying audio-visual feedback, this creates a 'displacement activity' that provides instant relief.",
+            philosophy: "Psychological studies show that visualizing abstract stressors as concrete objects and physically destroying them helps lower cortisol levels. In MoodSlider, we turn 'Bugs', 'Exams', and 'Bad Bosses' into destructible targets. Combined with satisfying audio-visual feedback, this creates a 'displacement activity' that provides instant relief.",
             wellnessTitle: "Wellness Tips",
             wellnessTips: [
                 { title: "4-7-8 Breathing", desc: "Inhale 4s, hold 7s, exhale 8s to calm your nervous system." },
@@ -831,7 +831,7 @@ export const MOOD_CONFIG_ZH: Record<Exclude<MoodType, 'AI_GENERATED'>, LevelConf
     ANGRY: {
         label: "暴躁模式",
         description: "世界太吵了，给我安静点！",
-        buttonText: "毁灭吧！",
+        buttonText: "开始 MoodSlider · 先滑后切",
         themeColor: "from-red-500 to-orange-600",
         gradient: "bg-gradient-to-br from-red-200 via-red-100 to-orange-200", // Lighter Gradient
         bgStyle: "contrast(1.1) saturate(1.2)", 
@@ -855,7 +855,7 @@ export const MOOD_CONFIG_ZH: Record<Exclude<MoodType, 'AI_GENERATED'>, LevelConf
     SAD: {
         label: "EMO模式",
         description: "累了...感觉不会再爱了...",
-        buttonText: "心碎了...",
+        buttonText: "开始 MoodSlider · 先滑后切",
         themeColor: "from-slate-400 to-blue-500",
         gradient: "bg-gradient-to-b from-slate-200 via-blue-100 to-white", // Lighter Gradient
         bgStyle: "grayscale(0.3) contrast(1.0)", 
@@ -879,7 +879,7 @@ export const MOOD_CONFIG_ZH: Record<Exclude<MoodType, 'AI_GENERATED'>, LevelConf
     HAPPY: {
         label: "摸鱼模式",
         description: "工作是老板的，学业是自己的，但快乐是当下的~",
-        buttonText: "开溜！",
+        buttonText: "开始 MoodSlider · 先滑后切",
         themeColor: "from-teal-400 to-cyan-500",
         gradient: "bg-gradient-to-br from-teal-100 via-cyan-50 to-blue-100", // Lighter Gradient
         bgStyle: "brightness(1.05) saturate(1.1)", 
@@ -908,7 +908,7 @@ export const MOOD_CONFIG_EN: Record<Exclude<MoodType, 'AI_GENERATED'>, LevelConf
     ANGRY: {
         label: "RAGE MODE",
         description: "The world is too loud. Silence it!",
-        buttonText: "DESTROY!",
+        buttonText: "Start MoodSlider – Slide & Slice",
         themeColor: "from-red-500 to-orange-600",
         gradient: "bg-gradient-to-br from-red-200 via-red-100 to-orange-200",
         bgStyle: "contrast(1.1) saturate(1.2)", 
@@ -932,7 +932,7 @@ export const MOOD_CONFIG_EN: Record<Exclude<MoodType, 'AI_GENERATED'>, LevelConf
     SAD: {
         label: "GLOOM MODE",
         description: "Tired... just want to be alone...",
-        buttonText: "Sigh...",
+        buttonText: "Start MoodSlider – Slide & Slice",
         themeColor: "from-slate-400 to-blue-500",
         gradient: "bg-gradient-to-b from-slate-200 via-blue-100 to-white",
         bgStyle: "grayscale(0.3) contrast(1.0)", 
@@ -956,7 +956,7 @@ export const MOOD_CONFIG_EN: Record<Exclude<MoodType, 'AI_GENERATED'>, LevelConf
     HAPPY: {
         label: "CHILL MODE",
         description: "Work hard, play harder!",
-        buttonText: "Let's Go!",
+        buttonText: "Start MoodSlider – Slide & Slice",
         themeColor: "from-teal-400 to-cyan-500",
         gradient: "bg-gradient-to-br from-teal-100 via-cyan-50 to-blue-100",
         bgStyle: "brightness(1.05) saturate(1.1)", 
