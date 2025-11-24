@@ -261,7 +261,7 @@ const UIOverlay: React.FC<UIOverlayProps> = ({
                                         className="border-2 border-dashed border-emerald-900/10 rounded-2xl h-48 flex flex-col items-center justify-center cursor-pointer hover:bg-white/40 transition-colors relative overflow-hidden group bg-white/20"
                                     >
                                         {selectedImage ? (
-                                            <img src={selectedImage} alt="Preview" className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 transition-opacity" />
+                                            <img src={selectedImage} alt="AI mood slicer user-uploaded preview image" className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 transition-opacity" />
                                         ) : (
                                             <>
                                                 <Upload className="w-8 h-8 text-emerald-800/30 mb-4" />

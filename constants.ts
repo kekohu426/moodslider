@@ -496,10 +496,10 @@ export const TRANSLATIONS = {
             ] as Testimonial[]
         },
         landing: {
-             seoTitle: "情绪切切乐：学生党与打工人的AI解压神器",
-             seoSubtitle: "把期末考和KPI切成碎片 - 免费在线游玩",
-             seoContent: "感到**学业压力**或**职场焦虑**？《情绪切切乐》(Mood Slicer) 是一款专为学生和职场人设计的**免费在线体感游戏**。无需下载，打开浏览器，使用摄像头即可将你的“烦恼”实体化并切碎。无论是应对**期末周**、**考研**，还是**KPI**与**职场倦怠**，我们利用先进的AI动作捕捉技术，让你通过真实的挥砍动作释放多巴胺。这是最有效的**在线发泄工具**。",
-             keywords: ["解压游戏", "考研焦虑", "期末周", "发泄怒气", "办公室摸鱼", "体感切水果", "AI生成游戏", "在线减压", "心理健康", "愤怒管理"],
+             seoTitle: "AI情绪切片游戏：1分钟切掉愤怒和焦虑 | Mood Slicer",
+             seoSubtitle: "免下载，浏览器即开即玩，摄像头/鼠标都能用",
+             seoContent: "Mood Slicer 是一款**免费 AI 体感解压游戏**，打开浏览器即可把你的情绪映射成敌人，用切水果的动作释放压力。支持**摄像头体感**和**鼠标静音模式**，1 分钟切掉愤怒、焦虑与职场/考研内耗。**零下载、隐私本地处理**，适合上课或上班间隙的快节奏解压。",
+             keywords: ["AI解压游戏", "情绪切片", "考研焦虑", "体感切水果", "免费发泄", "在线减压", "愤怒管理", "浏览器游戏", "摄像头体感"],
              featuresTitle: "核心功能亮点",
              subtitle_features: "核心能力",
              features: [
@@ -765,10 +765,10 @@ export const TRANSLATIONS = {
             ] as Testimonial[]
         },
         landing: {
-             seoTitle: "Mood Slicer: Stress Relief for Students & Pros",
-             seoSubtitle: "Cut Your Anger in 30 Seconds - No Download Required",
-             seoContent: "Feeling stressed by **School** or **Work**? Mood Slicer is a free, AI-powered **motion control browser game** that lets you physically slice away your stress. Whether you are dealing with **Finals**, **Thesis**, or **Office Burnout**, our advanced computer vision technology turns your webcam into a tool for mental relief. Instant play, no download, and 100% private.",
-             keywords: ["Stress Relief Game", "Student Anxiety", "Exam Stress", "Anger Management", "Motion Control Web Game", "Work Burnout", "Mental Health", "Free Online Game"],
+             seoTitle: "Free AI Mood Slicer Game – Cut Stress & Anxiety Fast",
+             seoSubtitle: "Browser-based, no download. Camera or mouse both work.",
+             seoContent: "Mood Slicer is a free, AI-powered **motion browser game** for stress relief. Map your mood to in-game enemies, then slice away **anger and anxiety** in under a minute. Works with **webcam motion** or **silent mouse mode**, no download, privacy-safe—perfect for quick breaks at work or school.",
+             keywords: ["AI stress relief game", "mood slicer", "free browser game", "motion control", "cut anxiety fast", "anger management", "work burnout relief", "mental health", "webcam game"],
              featuresTitle: "Why Play Mood Slicer?",
              subtitle_features: "Core Capabilities",
              features: [
