@@ -97,7 +97,7 @@ const UIOverlay: React.FC<UIOverlayProps> = ({
         setTimeout(() => setCopied(false), 2000);
     };
 
-    const generateSEOLink = () => 'https://moodslicer.app';
+    const generateSEOLink = () => 'https://moodslider.top';
 
     const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
         const file = event.target.files?.[0];
