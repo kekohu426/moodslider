@@ -274,7 +274,7 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
 
 export const TRANSLATIONS = {
     zh: {
-        title: "情绪切切乐",
+        title: "MoodSlider 情绪滑块",
         subtitle: "今天心情怎么样？",
         selectMode: "选择一个模式来释放你的情绪",
         playNow: "开始",
@@ -282,7 +282,7 @@ export const TRANSLATIONS = {
         configTitle: "情绪映射",
         mouse: "鼠标模式",
         camera: "体感模式",
-        startGame: "开始宣泄",
+        startGame: "开始 MoodSlider · 先滑后切",
         addItemsFirst: "请先选择或输入要宣泄的情绪...",
         activeItems: "本次宣泄目标", 
         clear: "清空",
@@ -295,7 +295,7 @@ export const TRANSLATIONS = {
         aiPlaceholder: "描述一下让你心烦意乱的事...",
         uploadImage: "上传图片",
         generate: "生成关卡",
-        sessionReport: "本局报告",
+        sessionReport: "本局滑完再切 · 报告",
         score: "宣泄值",
         maxCombo: "最大连击",
         rage: "怒气值",
@@ -309,12 +309,12 @@ export const TRANSLATIONS = {
         deviceError: "未检测到摄像头设备",
         genericError: "摄像头启动失败，请刷新重试",
         refresh: "刷新页面",
-        share: "分享成绩",
-        shareText: "我在《情绪切切乐》中释放了 {score} 点怒气！学生党打工人必备，快来试试！",
+        share: "分享 MoodSlider 成绩",
+        shareText: "我在 MoodSlider 先滑后切，释放了 {score} 点坏情绪！30 秒重启，快来试试 moodslider.top！",
         copied: "已复制!",
         support: "支持作者",
         nav: {
-            startGame: "开始游戏",
+            startGame: "开始 MoodSlider",
             blog: "解压博客"
         },
         ads: {
@@ -496,10 +496,10 @@ export const TRANSLATIONS = {
             ] as Testimonial[]
         },
         landing: {
-             seoTitle: "AI情绪切片游戏：1分钟切掉愤怒和焦虑 | Mood Slicer",
+             seoTitle: "MoodSlider 情绪滑块：先滑后切，1 分钟解压",
              seoSubtitle: "免下载，浏览器即开即玩，摄像头/鼠标都能用",
-             seoContent: "Mood Slicer 是一款**免费 AI 体感解压游戏**，打开浏览器即可把你的情绪映射成敌人，用切水果的动作释放压力。支持**摄像头体感**和**鼠标静音模式**，1 分钟切掉愤怒、焦虑与职场/考研内耗。**零下载、隐私本地处理**，适合上课或上班间隙的快节奏解压。",
-             keywords: ["AI解压游戏", "情绪切片", "考研焦虑", "体感切水果", "免费发泄", "在线减压", "愤怒管理", "浏览器游戏", "摄像头体感"],
+             seoContent: "MoodSlider 是一款**免费 AI 情绪滑块游戏**：先滑动情绪滑块，标记你当前的心情，再把生成的坏情绪“水果”切碎，30 秒完成多巴胺重启。支持**摄像头体感**和**鼠标静音模式**，**零下载、隐私本地处理**，适合上课或上班间隙的快节奏解压。\n\nStep 1: 滑动情绪滑块，标记真实状态\nStep 2: 切掉 AI 生成的坏情绪水果\n\n• No signup needed\n• 100% free forever\n• Works on phone & desktop",
+             keywords: ["AI解压游戏", "情绪滑块", "MoodSlider", "考研焦虑", "体感切水果", "免费发泄", "在线减压", "愤怒管理", "浏览器游戏", "摄像头体感"],
              featuresTitle: "核心功能亮点",
              subtitle_features: "核心能力",
              features: [
@@ -543,7 +543,7 @@ export const TRANSLATIONS = {
         }
     },
     en: {
-        title: "Mood Slicer",
+        title: "MoodSlider",
         subtitle: "How Are You Today?",
         selectMode: "Select a mode to match your mood",
         playNow: "Play",
@@ -551,7 +551,7 @@ export const TRANSLATIONS = {
         configTitle: "Emotion Mapping",
         mouse: "Mouse",
         camera: "Camera",
-        startGame: "START VENTING",
+        startGame: "Start MoodSlider – Slide & Slice Now!",
         addItemsFirst: "ADD EMOTIONS",
         activeItems: "Mission Targets", 
         clear: "Clear",
@@ -564,7 +564,7 @@ export const TRANSLATIONS = {
         aiPlaceholder: "Describe what's bothering you...",
         uploadImage: "Upload Image",
         generate: "Generate Level",
-        sessionReport: "Session Report",
+        sessionReport: "You Slid & Sliced Your Stress!",
         score: "Vented",
         maxCombo: "Max Combo",
         rage: "Rage",
@@ -578,12 +578,12 @@ export const TRANSLATIONS = {
         deviceError: "No camera device found.",
         genericError: "Camera failed to start.",
         refresh: "Refresh Page",
-        share: "Share Score",
-        shareText: "I just vented {score} rage points in Mood Slicer! Students & Pros must try this! ",
+        share: "Share Your MoodSlider Score",
+        shareText: "I just slid & sliced away {score} bad moods with MoodSlider. Slide to rate, slice to release at moodslider.top!",
         copied: "Copied!",
         support: "Support Dev",
         nav: {
-            startGame: "Start Game",
+            startGame: "Start MoodSlider",
             blog: "Wellness Blog"
         },
         ads: {
@@ -765,10 +765,10 @@ export const TRANSLATIONS = {
             ] as Testimonial[]
         },
         landing: {
-             seoTitle: "Free AI Mood Slicer Game – Cut Stress & Anxiety Fast",
-             seoSubtitle: "Browser-based, no download. Camera or mouse both work.",
-             seoContent: "Mood Slicer is a free, AI-powered **motion browser game** for stress relief. Map your mood to in-game enemies, then slice away **anger and anxiety** in under a minute. Works with **webcam motion** or **silent mouse mode**, no download, privacy-safe—perfect for quick breaks at work or school.",
-             keywords: ["AI stress relief game", "mood slicer", "free browser game", "motion control", "cut anxiety fast", "anger management", "work burnout relief", "mental health", "webcam game"],
+             seoTitle: "MoodSlider: Slide Your Mood, Slice Your Stress",
+             seoSubtitle: "Free AI Mood Slider Game 2025 — slide & slice stress instantly.",
+             seoContent: "MoodSlider is a free, AI-powered **mood slider game**. Step 1: Slide the mood slider to rate how you feel. Step 2: Slice away the AI-generated bad-mood fruits—30-second dopamine reset, no download, privacy-safe. Works with **webcam motion** or **silent mouse mode**, perfect for quick breaks at work or school.\n\n• No signup needed\n• 100% free forever\n• Works on phone & desktop",
+             keywords: ["AI stress relief game", "mood slider", "free browser game", "motion control", "cut anxiety fast", "mood slicer", "anger management", "work burnout relief", "mental health", "webcam game"],
              featuresTitle: "Why Play Mood Slicer?",
              subtitle_features: "Core Capabilities",
              features: [

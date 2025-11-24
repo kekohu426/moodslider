@@ -427,7 +427,7 @@ const UIOverlay: React.FC<UIOverlayProps> = ({
 
     const renderGameOver = () => {
         const shareUrl = generateSEOLink();
-        const shareMessage = `${t.shareText.replace('{score}', stats.score.toString())} #MoodSlicer #StressRelief ${shareUrl}`;
+        const shareMessage = `${t.shareText.replace('{score}', stats.score.toString())} #MoodSlider #StressRelief ${shareUrl}`;
 
         return (
             <div className="absolute inset-0 bg-[#e6fbe3]/95 backdrop-blur-3xl z-50 pointer-events-auto animate-in fade-in zoom-in duration-300 overflow-y-auto custom-scrollbar">
