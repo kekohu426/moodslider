@@ -214,6 +214,13 @@ const GamePropsGallery: React.FC<{ lang: Language }> = ({ lang }) => {
        }
     }
 
+    const handleGoToGame = () => {
+        const target = document.getElementById('game-area');
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
+
     return (
         // THEME: SOFT MINT (#f0fdf4) for Gallery
         <section className="py-32 px-6 relative z-10 bg-[#f0fdf4]">
@@ -294,6 +301,15 @@ const GamePropsGallery: React.FC<{ lang: Language }> = ({ lang }) => {
                 <div className="text-center">
                     <button onClick={shuffleItems} className="text-xs font-bold font-mono text-emerald-700 hover:text-white hover:bg-emerald-600 transition-all flex items-center justify-center gap-2 mx-auto border border-emerald-200 px-8 py-4 rounded-full bg-white shadow-sm uppercase tracking-widest">
                         <RefreshCw className="w-3 h-3" /> {t.refresh}
+                    </button>
+                </div>
+
+                <div className="mt-10 flex justify-center">
+                    <button 
+                        onClick={handleGoToGame}
+                        className="inline-flex items-center gap-2 px-6 md:px-8 py-4 rounded-full bg-[#1a3c34] text-emerald-50 text-sm font-bold font-tech uppercase tracking-widest shadow-lg shadow-emerald-900/20 hover:bg-emerald-900 transition-all"
+                    >
+                        <Play className="w-4 h-4" /> {t.ctaPlay}
                     </button>
                 </div>
             </div>

@@ -493,6 +493,7 @@ export const TRANSLATIONS = {
             subtitle: "认识一下这些即将被你切碎的'讨厌鬼'",
             intro: "我们在本地构建了包含100+种情绪映射的图鉴库，涵盖校园生活、职场压力、情感问题等。",
             refresh: "刷新图鉴数据",
+            ctaPlay: "进入游戏 · 先滑后切",
             terminal: {
                 filename: "情绪映射实验室_v2.0.exe",
                 ready: "等待输入..."
@@ -769,6 +770,7 @@ export const TRANSLATIONS = {
             subtitle: "Meet the 'Villains' You Will Destroy",
             intro: "We've built a local semantic mapping library with 100+ stressors covering campus life, workplace pressure, and relationships.",
             refresh: "REFRESH DATASET",
+            ctaPlay: "Jump to Game · Slide & Slice",
             terminal: {
                 filename: "mood_mapper_lab_v2.0.exe",
                 ready: "READY_FOR_INPUT..."
