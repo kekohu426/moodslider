@@ -140,6 +140,47 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             category: '设计美学',
             image: '🎨',
             tags: ['设计', '心理学', '色彩']
+        },
+        {
+            id: '8',
+            slug: 'mood-slider-how-to',
+            title: 'MoodSlider 入门：如何用“先滑后切”在 30 秒内解压',
+            excerpt: '把情绪写进滑块，再把坏情绪“水果”切碎，完整流程示范。',
+            content: `<p>MoodSlider 的核心动作是“先滑后切”：先用情绪滑块标记你的真实状态，然后 AI 会生成对应的坏情绪目标，接着用摄像头或鼠标切掉它们。</p>
+                      <p>最佳实践：</p>
+                      <ul>
+                        <li>滑块要真实：心情越“炸”，生成的目标越多，宣泄越爽。</li>
+                        <li>用 Stealth 模式：在办公室/图书馆也能安静切水果。</li>
+                        <li>设 30 秒计时：短平快的情绪重启，避免越玩越累。</li>
+                      </ul>
+                      <p>Tip: 记得开“先滑后切”心态，而不是直接砍，能让大脑更快完成“我在掌控情绪”的认知闭环。</p>`,
+            date: '2025-04-02',
+            author: 'Flow Coach',
+            readTime: '3 min',
+            category: '玩法',
+            image: '🕹️',
+            tags: ['MoodSlider', '滑块', '解压', '教程']
+        },
+        {
+            id: '9',
+            slug: 'mood-slider-office',
+            title: '在工位/自习室玩 MoodSlider，不被发现的 5 个技巧',
+            excerpt: '“先滑后切”也能很安静，适合会议间隙/宿舍深夜。',
+            content: `<p>很多玩家担心在办公室或自习室被发现。这里有 5 个安静玩法：</p>
+                     <ol>
+                        <li>切换鼠标模式：不用挥手，静音切。</li>
+                        <li>降低音量或关声效：保留震动/视觉反馈即可。</li>
+                        <li>Stealth Screen：一键变 Excel 界面，老板键安心。</li>
+                        <li>30 秒一局：高频短局，心率不会拉太高。</li>
+                        <li>自定义敌人：把“周报”“deadline”写进滑块，情绪释放更精准。</li>
+                     </ol>
+                     <p>记得在情绪滑块里诚实标记心情，才能让切割动作形成“掌控”信号，真正降低焦虑。</p>`,
+            date: '2025-04-01',
+            author: 'Office Ninja',
+            readTime: '4 min',
+            category: '场景',
+            image: '🧊',
+            tags: ['办公室', '宿舍', 'Stealth', '滑块']
         }
     ],
     en: [
@@ -268,6 +309,47 @@ export const BLOG_POSTS: Record<Language, BlogPost[]> = {
             category: 'Design',
             image: '🎨',
             tags: ['Design', 'Psychology', 'Color']
+        },
+        {
+            id: '8',
+            slug: 'mood-slider-how-to',
+            title: 'MoodSlider Basics: Slide First, Slice Fast',
+            excerpt: 'A 2-step playbook to reset stress in 30 seconds using the mood slider.',
+            content: `<p>MoodSlider’s core loop is “slide then slice”: you slide the mood slider to label how you feel, the AI spawns bad-mood fruits that match your rating, then you slice them away.</p>
+                      <p>Best practices:</p>
+                      <ul>
+                        <li>Be honest on the slider—higher stress spawns more targets and better venting.</li>
+                        <li>Use Stealth mode for office/library: silent mouse slicing, no waving needed.</li>
+                        <li>Keep it to 30s sprints: micro-breaks that reboot dopamine without fatigue.</li>
+                      </ul>
+                      <p>Tip: “Slide then slice” tells your brain you’re in control, which reduces anxiety faster than pure button-mashing.</p>`,
+            date: 'Apr 2, 2025',
+            author: 'Flow Coach',
+            readTime: '3 min',
+            category: 'How-To',
+            image: '🕹️',
+            tags: ['MoodSlider', 'How-To', 'Stress Relief']
+        },
+        {
+            id: '9',
+            slug: 'mood-slider-office',
+            title: 'Playing MoodSlider at Work or School—Without Getting Noticed',
+            excerpt: 'Stealth tips: silent slicing, 30s rounds, and honest slider input.',
+            content: `<p>Worried about playing in an open office or study hall? Try these stealth moves:</p>
+                     <ol>
+                        <li>Switch to mouse mode—no arm waving, just precise slicing.</li>
+                        <li>Mute SFX, keep haptics/visuals.</li>
+                        <li>Use Stealth Screen: boss key to an “Excel-like” cover.</li>
+                        <li>Play 30-second rounds: quick venting, no sweat.</li>
+                        <li>Custom enemies: add “deadlines” or “midterms” so slicing matches real stressors.</li>
+                     </ol>
+                     <p>Always start with the mood slider—label the feeling, then slice. That control signal is what calms your nervous system.</p>`,
+            date: 'Apr 1, 2025',
+            author: 'Office Ninja',
+            readTime: '4 min',
+            category: 'Use Cases',
+            image: '🧊',
+            tags: ['Office', 'Study', 'Stealth', 'Mood Slider']
         }
     ]
 };
