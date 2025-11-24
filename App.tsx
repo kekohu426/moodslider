@@ -1002,6 +1002,13 @@ const App: React.FC = () => {
               </div>
           </div>
       </section>
+
+      {/* FOOTER */}
+      <footer className="py-10 px-6 bg-white border-t border-emerald-100">
+          <div className="max-w-6xl mx-auto text-center text-sm text-emerald-900/60 font-sans">
+              © 2025 MoodSlider.top – Free AI Mood Slider Game. Slide your mood, slice your stress. Privacy-safe, no signup.
+          </div>
+      </footer>
       </>
       )}
 

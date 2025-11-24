@@ -580,7 +580,7 @@ export const TRANSLATIONS = {
         landing: {
              seoTitle: "MoodSlider 情绪滑块：先滑后切，1 分钟解压",
              seoSubtitle: "免下载，浏览器即开即玩，摄像头/鼠标都能用",
-             seoContent: "MoodSlider 是一款**免费 AI 情绪滑块游戏**：先滑动情绪滑块，标记你当前的心情，再把生成的坏情绪“水果”切碎，30 秒完成多巴胺重启。支持**摄像头体感**和**鼠标静音模式**，**零下载、隐私本地处理**，适合上课或上班间隙的快节奏解压。\n\nStep 1: 滑动情绪滑块，标记真实状态\nStep 2: 切掉 AI 生成的坏情绪水果\n\n• No signup needed\n• 100% free forever\n• Works on phone & desktop",
+             seoContent: "MoodSlider 是一款**免费 AI 情绪滑块游戏**：先滑动情绪滑块，标记你当前的心情，再把生成的坏情绪“水果”切碎，30 秒完成多巴胺重启。支持**摄像头体感**和**鼠标静音模式**，**零下载、隐私本地处理**，适合上课或上班间隙的快节奏解压。\n\n- 先滑后切：滑块标记 → AI 生成坏情绪 → 切碎释放\n- Camera / Mouse 双模式：体感挥砍或静音点击都能玩\n- 隐私本地处理：视频流不出本机，免注册，免费永远\n- 适合 30 秒微休息：考前、会前、熬夜写作业时快速降压\n\nStep 1: 滑动情绪滑块，标记真实状态\nStep 2: 切掉 AI 生成的坏情绪水果\n\n• No signup needed\n• 100% free forever\n• Works on phone & desktop",
              keywords: ["AI解压游戏", "情绪滑块", "MoodSlider", "考研焦虑", "体感切水果", "免费发泄", "在线减压", "愤怒管理", "浏览器游戏", "摄像头体感"],
              featuresTitle: "核心功能亮点",
              subtitle_features: "核心能力",
@@ -592,19 +592,26 @@ export const TRANSLATIONS = {
              ],
              howToPlay: "新手指南",
              subtitle_howToPlay: "快速上手",
-             steps: ["选择你的当前心情（愤怒、悲伤或快乐），或者输入文字自定义你的敌人（如'高数'）。", "授权浏览器访问摄像头权限（请放心，我们不偷看）。", "站在屏幕前，挥动双臂，切碎红色的烦恼气泡，避开黑色的炸弹。", "收集蓝色的快乐因子，创造连击(Combo)，挑战高分！"],
+             steps: [
+                 "Step 1: 滑动情绪滑块，标记今天的真实状态（愤怒/悲伤/快乐或自定义）。",
+                 "Step 2: 选择摄像头体感或鼠标静音模式（隐私本地处理，不上传视频）。",
+                 "Step 3: 挥手/点击切碎 AI 生成的坏情绪水果，避开黑色炸弹，保持连击。",
+                 "Step 4: 收集蓝色快乐因子，30 秒一局，随时重启心情。"
+             ],
              faqTitle: "常见问题 (FAQ)",
              subtitle_faq: "支持中心",
              faq: [
                  { q: "这个游戏收费吗？", a: "完全免费！MoodSlider 是一款旨在帮助大家缓解压力的公益性质网页游戏。" },
                  { q: "我的摄像头画面会被录制吗？", a: "绝对不会。我们使用 TensorFlow.js 在您的设备本地进行动作捕捉，画面数据不会离开您的电脑。" },
-                 { q: "手机上可以玩吗？", a: "可以！游戏适配移动端浏览器，但在电脑大屏幕上体验更佳。" }
+                 { q: "手机上可以玩吗？", a: "可以！游戏适配移动端浏览器，但在电脑大屏幕上体验更佳。" },
+                 { q: "为什么要先滑后切？", a: "滑动情绪滑块是“标记-掌控”动作，告诉大脑你在管理情绪，随后切碎坏情绪形成释放闭环，降低焦虑比直接乱砍更快。" },
+                 { q: "MoodSlider 和普通切水果游戏的区别？", a: "MoodSlider 有情绪滑块、AI 生成专属坏情绪、体感/鼠标双模式，并在本地隐私处理，是真正的情绪管理小游戏。" }
              ]
         },
         workplace: {
             title: "学业与职场的情绪急救包",
             subtitle: "拒绝精神内耗，把压力切成碎片",
-            intro: "在**GPA**、**论文**、**996**和**KPI**的多重重压下，我们往往无处宣泄。MoodSlider 的设计初衷，就是为你提供一个安全、私密且即时的发泄空间，让你在'切碎'烦恼的过程中重获掌控感。",
+            intro: "在**GPA**、**论文**、**996**和**KPI**的多重重压下，我们往往无处宣泄。MoodSlider 情绪滑块的设计初衷，就是为你提供一个安全、私密且即时的发泄空间：先用滑块标记真实心情，再把坏情绪切碎，重获掌控感。",
             designPhilosophy: "设计哲学",
             startVenting: "开始宣泄",
             painPointsTitle: "你是否也经历过这些？",
@@ -623,10 +630,10 @@ export const TRANSLATIONS = {
                 { title: "运动代偿", desc: "身体的疲惫能抑制精神的焦虑，试试我们的体感模式！" }
             ]
         }
-    },
-    en: {
-        title: "MoodSlider",
-        subtitle: "How Are You Today?",
+        },
+        en: {
+            title: "MoodSlider",
+            subtitle: "How Are You Today?",
         selectMode: "Select a mode to match your mood",
         playNow: "Play",
         tryAi: "Try AI",
@@ -849,7 +856,7 @@ export const TRANSLATIONS = {
         landing: {
              seoTitle: "MoodSlider: Slide Your Mood, Slice Your Stress",
              seoSubtitle: "Free AI Mood Slider Game 2025 — slide & slice stress instantly.",
-             seoContent: "MoodSlider is a free, AI-powered **mood slider game**. Step 1: Slide the mood slider to rate how you feel. Step 2: Slice away the AI-generated bad-mood fruits—30-second dopamine reset, no download, privacy-safe. Works with **webcam motion** or **silent mouse mode**, perfect for quick breaks at work or school.\n\n• No signup needed\n• 100% free forever\n• Works on phone & desktop",
+             seoContent: "MoodSlider is a free, AI-powered **mood slider game**: slide to label your mood, then slice away AI-generated bad-mood fruits for a 30-second dopamine reset. Works with **webcam motion** or **silent mouse mode**, **no download**, **privacy-safe**—perfect for fast breaks at work or school.\n\n- Slide then slice: label mood → AI spawns stress targets → slice to release\n- Camera or mouse: motion control or quiet clicks anywhere\n- Privacy: all processing stays local, zero uploads, no signup, free forever\n- Best for micro-breaks: pre-exam, pre-meeting, or late-night study resets\n\nStep 1: Slide the mood slider to rate your state\nStep 2: Slice the AI-generated bad-mood fruits\n\n• No signup needed\n• 100% free forever\n• Works on phone & desktop",
              keywords: ["AI stress relief game", "mood slider", "free browser game", "motion control", "cut anxiety fast", "mood slicer", "anger management", "work burnout relief", "mental health", "webcam game"],
              featuresTitle: "Why Play MoodSlider?",
              subtitle_features: "Core Capabilities",
@@ -861,19 +868,26 @@ export const TRANSLATIONS = {
              ],
              howToPlay: "How to Play",
              subtitle_howToPlay: "Get Started",
-             steps: ["Select a mood mode or use the Custom Generator to customize your enemies.", "Enable camera access to activate the Motion Engine.", "Stand back and wave your arms to slash red targets. Avoid the bombs!", "Collect blue bonuses and build your Combo meter for maximum score."],
+             steps: [
+                 "Step 1: Slide the mood slider and pick your mode (Angry/Sad/Happy or custom text).",
+                 "Step 2: Choose Camera Motion or Silent Mouse Mode (privacy stays on-device).",
+                 "Step 3: Wave/click to slice AI-generated bad-mood fruits, dodge bombs, keep combos.",
+                 "Step 4: Grab blue bonuses; play in 30s bursts for quick relief."
+             ],
              faqTitle: "Frequently Asked Questions",
              subtitle_faq: "Support",
              faq: [
                  { q: "Is MoodSlider free?", a: "Yes, it is 100% free to play online directly in your browser." },
                  { q: "Is it safe to use my camera?", a: "Absolutely. We use local processing (TensorFlow.js). Your video feed never leaves your computer." },
-                 { q: "Can I play on mobile?", a: "Yes, but for the best motion control experience, a laptop or desktop with a webcam is recommended." }
+                 { q: "Can I play on mobile?", a: "Yes, but for the best motion control experience, a laptop or desktop with a webcam is recommended." },
+                 { q: "Why slide first and then slice?", a: "Labeling your mood (slide) signals control to your brain; slicing then acts as release. The combo lowers stress faster than mindless tapping." },
+                 { q: "How is MoodSlider different from a fruit-slicing game?", a: "MoodSlider has a mood slider, AI-generated stress targets, motion/silent modes, and on-device privacy—built for stress relief, not just arcade play." }
              ]
         },
         workplace: {
             title: "Mental First-Aid for School & Work",
             subtitle: "Stop Burnout. Start Slicing.",
-            intro: "Under the crushing weight of **Exams**, **Grades**, **Deadlines**, and **KPIs**, we often have no outlet. MoodSlider is designed to provide a safe, private, and instant space to vent, giving you back control by physically 'slicing' away your worries.",
+            intro: "Under the crushing weight of **Exams**, **Grades**, **Deadlines**, and **KPIs**, we often have no outlet. MoodSlider’s mood slider gives you a safe, private, instant vent space: slide to label, slice to release, regain control in seconds.",
             designPhilosophy: "Design Philosophy",
             startVenting: "Start Venting",
             painPointsTitle: "Sound Familiar?",
